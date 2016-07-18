@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/coreos/etcdctl/command"
-	"github.com/coreos/etcdctl/third_party/github.com/codegangsta/cli"
+	"github.com/jakubigla/etcdctl/command"
+	"github.com/jakubigla/etcdctl/third_party/github.com/codegangsta/cli"
 )
 
 func main() {

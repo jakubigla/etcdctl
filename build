@@ -1,11 +1,11 @@
 #!/bin/sh -e
 
-if [ ! -h src/github.com/coreos/etcdctl ]; then
-	mkdir -p src/github.com/coreos/
-	ln -s ../../.. src/github.com/coreos/etcdctl
+if [ ! -h src/github.com/jakubigla/etcdctl ]; then
+	mkdir -p src/github.com/jakubigla/
+	ln -s ../../.. src/github.com/jakubigla/etcdctl
 fi
 
 export GOBIN=${PWD}/bin
 export GOPATH=${PWD}
 
-go install github.com/coreos/etcdctl
+go install github.com/jakubigla/etcdctl
