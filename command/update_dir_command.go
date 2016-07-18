@@ -3,8 +3,8 @@ package command
 import (
 	"errors"
 
-	"github.com/coreos/etcdctl/third_party/github.com/codegangsta/cli"
-	"github.com/coreos/etcdctl/third_party/github.com/coreos/go-etcd/etcd"
+	"github.com/jakubigla/etcdctl/third_party/github.com/codegangsta/cli"
+	"github.com/jakubigla/etcdctl/third_party/github.com/coreos/go-etcd/etcd"
 )
 
 // NewUpdateDirCommand returns the CLI command for "updateDir".
